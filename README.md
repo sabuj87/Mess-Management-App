@@ -44,12 +44,13 @@ Manege a mess with app.Manage mess cost,mess meal,mess border,mess manager
 |![alt text][all_member] | ![alt text][member_dash] | 
 
 
-[Download APK](https://www.mediafire.com/file/zb3uqkx4b8f251h/Attendance_System.apk/file)
+[Download APK](https://mega.nz/file/EYtVTSbC#fEjOTWNa4rFdwWkqYfRbgxRJaji91kGQ48oPMItHyrk)
 
 ## Ask any question...
 * Email : sabujaeed@gmail.com
-* [Download APK](http://www.mediafire.com/file/mlimk0cekd76ggi/Joy_Bangla.apk/file)
+* [Download APK](https://mega.nz/file/EYtVTSbC#fEjOTWNa4rFdwWkqYfRbgxRJaji91kGQ48oPMItHyrk)
 * [Facebook](https://www.facebook.com/saeed.sabuj)
+* [Linkedin](https://www.linkedin.com/in/sabuj87/)
 * [Twitter](https://twitter.com/sabujsaeed)
 * [Instagram](https://www.instagram.com/assabuj87/)
 * [Youtube](https://www.youtube.com/abusaeedsabuj)
