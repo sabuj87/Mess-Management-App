@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.activity.MessInfoActivity">
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:padding="17dp"
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+      <ImageView
+          android:tint="@color/colorPrimary"
+          app:srcCompat="@drawable/ic_arrow_back"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          android:id="@+id/arrow"
+          android:layout_width="20dp"
+          android:layout_height="20dp"/>
+
+      <TextView
+          android:id="@+id/messUname"
+          android:textStyle="bold"
+          android:textColor="@color/colorPrimary"
+          android:textSize="20sp"
+          android:textAlignment="center"
+          android:text="Mess name"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"/>
+      <TextView
+          android:id="@+id/managerName"
+          android:textSize="15sp"
+          android:layout_marginTop="5dp"
+          android:textAlignment="center"
+          android:text="Manager : Abu Saeed Sabuj"
+          app:layout_constraintTop_toBottomOf="@id/messUname"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"/>
+      <TextView
+          android:layout_marginTop="5dp"
+          android:textAlignment="center"
+          app:layout_constraintTop_toBottomOf="@id/managerName"
+          android:id="@+id/createdTv"
+          android:text="Created date : 21/12/2019"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"/>
+      <TextView
+          android:layout_marginTop="5dp"
+          android:textAlignment="center"
+          app:layout_constraintTop_toBottomOf="@id/createdTv"
+          android:id="@+id/updatedAt"
+          android:text="Updated at : 21/12/2019"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"/>
+
+      <LinearLayout
+          android:orientation="vertical"
+          android:id="@+id/messBalaceBox"
+          android:layout_marginTop="15dp"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@id/updatedAt"
+          android:background="@drawable/ic_bd_frame"
+          android:layout_width="155dp"
+          android:layout_height="140dp"/>
+
+      <TextView
+          android:id="@+id/messBalanceTv"
+          android:textSize="17sp"
+          android:layout_marginTop="10dp"
+          app:layout_constraintEnd_toEndOf="@id/messBalaceBox"
+          app:layout_constraintStart_toStartOf="@id/messBalaceBox"
+          app:layout_constraintTop_toTopOf="@id/messBalaceBox"
+          android:text="Balance"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+
+      <TextView
+          android:id="@+id/balanceCount"
+          android:textColor="@color/colorPrimary"
+          android:textSize="30sp"
+          android:text="..."
+          app:layout_constraintEnd_toEndOf="@id/messBalaceBox"
+          app:layout_constraintStart_toStartOf="@id/messBalaceBox"
+          app:layout_constraintTop_toBottomOf="@id/messBalanceTv"
+          app:layout_constraintBottom_toBottomOf="@id/messBalaceBox"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+
+      <LinearLayout
+          android:orientation="vertical"
+          android:id="@+id/totalMealCostBox"
+          android:layout_marginTop="15dp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintTop_toBottomOf="@id/updatedAt"
+          android:background="@drawable/ic_bd_frame"
+          android:layout_width="155dp"
+          android:layout_height="140dp"/>
+      <TextView
+          android:id="@+id/mealCostTv"
+          android:textSize="17sp"
+          android:layout_marginTop="10dp"
+          app:layout_constraintEnd_toEndOf="@id/totalMealCostBox"
+          app:layout_constraintStart_toStartOf="@id/totalMealCostBox"
+          app:layout_constraintTop_toTopOf="@id/totalMealCostBox"
+          android:text="Total meal cost"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+
+      <TextView
+          android:id="@+id/mealCostCount"
+          android:textColor="@color/colorPrimary"
+          android:textSize="30sp"
+          android:text="..."
+          app:layout_constraintEnd_toEndOf="@id/totalMealCostBox"
+          app:layout_constraintStart_toStartOf="@id/totalMealCostBox"
+          app:layout_constraintTop_toBottomOf="@id/mealCostTv"
+          app:layout_constraintBottom_toBottomOf="@id/totalMealCostBox"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+
+      <LinearLayout
+          android:orientation="vertical"
+          android:id="@+id/totalMealBox"
+          android:layout_marginTop="25dp"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@id/messBalaceBox"
+          android:background="@drawable/ic_bd_frame"
+          android:layout_width="155dp"
+          android:layout_height="140dp"/>
+      <TextView
+          android:id="@+id/totalMealTv"
+          android:textSize="17sp"
+          android:layout_marginTop="10dp"
+          app:layout_constraintEnd_toEndOf="@id/totalMealBox"
+          app:layout_constraintStart_toStartOf="@id/totalMealBox"
+          app:layout_constraintTop_toTopOf="@id/totalMealBox"
+          android:text="Total meal"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+
+      <TextView
+          android:id="@+id/totalMealCount"
+          android:textColor="@color/colorPrimary"
+          android:textSize="30sp"
+          android:text="..."
+          app:layout_constraintEnd_toEndOf="@id/totalMealBox"
+          app:layout_constraintStart_toStartOf="@id/totalMealBox"
+          app:layout_constraintTop_toBottomOf="@id/totalMealTv"
+          app:layout_constraintBottom_toBottomOf="@id/totalMealBox"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+
+      <LinearLayout
+          android:orientation="vertical"
+          android:id="@+id/MealRateBox"
+          android:layout_marginTop="25dp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintTop_toBottomOf="@id/messBalaceBox"
+          android:background="@drawable/ic_bd_frame"
+          android:layout_width="155dp"
+          android:layout_height="140dp"/>
+      <TextView
+          android:id="@+id/MealRatetv"
+          android:textSize="17sp"
+          android:layout_marginTop="10dp"
+          app:layout_constraintEnd_toEndOf="@id/MealRateBox"
+          app:layout_constraintStart_toStartOf="@id/MealRateBox"
+          app:layout_constraintTop_toTopOf="@id/MealRateBox"
+          android:text="Meal Rate"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+
+      <TextView
+          android:id="@+id/MealRateCount"
+          android:textColor="@color/colorPrimary"
+          android:textSize="30sp"
+          android:text="..."
+          app:layout_constraintEnd_toEndOf="@id/MealRateBox"
+          app:layout_constraintStart_toStartOf="@id/MealRateBox"
+          app:layout_constraintTop_toBottomOf="@id/MealRatetv"
+          app:layout_constraintBottom_toBottomOf="@id/MealRateBox"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+
+      <LinearLayout
+          android:orientation="vertical"
+          android:id="@+id/TotalDepositBox"
+          android:layout_marginTop="25dp"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@id/totalMealBox"
+          android:background="@drawable/ic_bd_frame"
+          android:layout_width="155dp"
+          android:layout_height="140dp"/>
+      <TextView
+          android:id="@+id/TotalDeposittv"
+          android:textSize="17sp"
+          android:layout_marginTop="10dp"
+          app:layout_constraintEnd_toEndOf="@id/TotalDepositBox"
+          app:layout_constraintStart_toStartOf="@id/TotalDepositBox"
+          app:layout_constraintTop_toTopOf="@id/TotalDepositBox"
+          android:text="Total Deposit"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+
+      <TextView
+          android:id="@+id/TotalDipositCount"
+          android:textColor="@color/colorPrimary"
+          android:textSize="30sp"
+          android:text="..."
+          app:layout_constraintEnd_toEndOf="@id/TotalDepositBox"
+          app:layout_constraintStart_toStartOf="@id/TotalDepositBox"
+          app:layout_constraintTop_toBottomOf="@id/TotalDeposittv"
+          app:layout_constraintBottom_toBottomOf="@id/TotalDepositBox"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+      <LinearLayout
+          android:orientation="vertical"
+          android:id="@+id/TotalMemberBox"
+          android:layout_marginTop="25dp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintTop_toBottomOf="@id/totalMealBox"
+          android:background="@drawable/ic_bd_frame"
+          android:layout_width="155dp"
+          android:layout_height="140dp"/>
+      <TextView
+          android:id="@+id/TotalMembertv"
+          android:textSize="17sp"
+          android:layout_marginTop="10dp"
+          app:layout_constraintEnd_toEndOf="@id/TotalMemberBox"
+          app:layout_constraintStart_toStartOf="@id/TotalMemberBox"
+          app:layout_constraintTop_toTopOf="@id/TotalMemberBox"
+          android:text="Total member"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+
+      <TextView
+          android:id="@+id/TotalMemberCount"
+          android:textColor="@color/colorPrimary"
+          android:textSize="30sp"
+          android:text="..."
+          app:layout_constraintEnd_toEndOf="@id/TotalMemberBox"
+          app:layout_constraintStart_toStartOf="@id/TotalMemberBox"
+          app:layout_constraintTop_toBottomOf="@id/TotalMembertv"
+          app:layout_constraintBottom_toBottomOf="@id/TotalMemberBox"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+
+
+
+
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

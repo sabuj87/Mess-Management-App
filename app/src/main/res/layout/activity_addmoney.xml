@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="17dp"
+    tools:context=".view.activity.AddmoneyActivity">
+
+    <ImageView
+        android:id="@+id/arrowMoney"
+        android:tint="@color/colorPrimary"
+        app:srcCompat="@drawable/ic_arrow_back"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="20dp"
+        android:layout_height="20dp"/>
+
+
+    <TextView
+
+        android:id="@+id/addMoneyTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Add money to member"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/arrowMoney"
+        tools:layout_editor_absoluteX="18dp" />
+
+    <Button
+
+        android:textColor="@color/colorWhite"
+        android:id="@+id/dateButtonMoney"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/addMoneyTv"
+        android:background="@drawable/shape_gradient_button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:paddingLeft="30dp"
+        android:hint="Enter ammount"
+        android:background="@drawable/edittext_shape6"
+        android:layout_marginTop="20dp"
+        android:id="@+id/addMoneyET"
+        app:layout_constraintTop_toBottomOf="@id/dateButtonMoney"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <LinearLayout
+        android:id="@+id/addCostSpinnerBack"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/addMoneyET"
+        android:layout_width="match_parent"
+        android:background="@drawable/edittext_shape6"
+        android:layout_height="wrap_content">
+        <Spinner
+            android:id="@+id/moneySpinner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+    <Button
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/addCostSpinnerBack"
+        android:id="@+id/AddMoneySubmitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_gradient_button3"
+        android:text="Submit"
+        android:textColor="@color/colorWhite"
+        />
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/moneyProgressBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/AddMoneySubmitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.activity.ManagerActivity">
+    <androidx.appcompat.widget.Toolbar
+        app:title="Manager"
+        app:titleTextColor="@color/colorWhite"
+        android:background="@drawable/gradient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:padding="17dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:visibility="gone"
+            android:id="@+id/managerCardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:background="@drawable/edittext_shape5"
+                android:padding="10dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+              <TextView
+                  android:id="@+id/managerName"
+                  android:textColor="@color/colorPrimary"
+                  android:textAlignment="center"
+                  android:textSize="20sp"
+                  android:text="Manager name"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"/>
+
+                <TextView
+
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    android:text="(Manager)"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+ <TextView
+                 android:id="@+id/managerEmail"
+                 android:textColor="@color/colorBlack"
+                android:layout_marginTop="10dp"
+                  android:textAlignment="center"
+                  android:textSize="17sp"
+                  android:text="sabujsaeed@gmail.com"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/managerMonth"
+                    android:textColor="@color/colorBlack"
+                   android:layout_marginTop="10dp"
+                    android:textAlignment="center"
+                    android:textSize="17sp"
+                    android:text="Month : January 2020"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+
+
+            </LinearLayout>
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/noManager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/changeManagerButton1"
+            android:textAllCaps="false"
+            android:text="Select manager"
+            android:background="@drawable/edittext_shape4"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Spinner
+            android:visibility="gone"
+            android:id="@+id/mangerSpinner"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:visibility="gone"
+            android:id="@+id/changeMangerButton2"
+            android:textAllCaps="false"
+            android:text="Change manager"
+            android:background="@drawable/edittext_shape4"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

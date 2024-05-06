@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<item>
+    <shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="oval">
+        <gradient
+            android:type="linear"
+            android:angle="0"
+            android:startColor="#f6ee19"
+            android:endColor="#115ede" />
+    </shape>
+
+</item>
+<item android:gravity="center"
+    >
+    <bitmap android:src="@drawable/signup4"
+        android:gravity="center" />
+
+</item>
+
+</layer-list>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1090039544038",
+    "firebase_url": "https://mess-management-9f494.firebaseio.com",
+    "project_id": "mess-management-9f494",
+    "storage_bucket": "mess-management-9f494.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090039544038:android:dda43596defdaa157f2327",
+        "android_client_info": {
+          "package_name": "com.sabuj.messmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1090039544038-iim787cferlfbhacq5q5l3bhfvku2i9v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJcFJrB1gRUkM8Ewyb17U7XcKhfQzE9lw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1090039544038-iim787cferlfbhacq5q5l3bhfvku2i9v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
