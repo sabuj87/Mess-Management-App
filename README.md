@@ -41,7 +41,7 @@ Manege a mess with app.Manage mess cost,mess meal,mess border,mess manager
 
 |  All Member |   Member Dashboard 
 | ------------- |:-------------: |
-|![alt text][all_member]  | 
+|![alt text][all_member] | ![alt text][member_dash] | 
 
 
 [Download APK](https://www.mediafire.com/file/zb3uqkx4b8f251h/Attendance_System.apk/file)
