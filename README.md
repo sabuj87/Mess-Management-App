@@ -1,5 +1,5 @@
-# Attendance System
-Manege teacher and student information,course allocation System,take live Attendance.
+# Mess Management App
+Manege a mess with app.Manage mess cost,mess meal,mess border,mess manager
 
 ## About the app
 * App OS : Android
@@ -8,43 +8,40 @@ Manege teacher and student information,course allocation System,take live Attend
 * Backend : FireBase by Google
 
 ## Feature
-* Optimized Splash Screen.
-* Intro Slider Screen with SharedPreference.
 * Attractive UI design.
-* Recyceler View, Tab Layout, Custom Appbar, Custom many components.
-* Three Users: 1.Admin 2.Teacher,3.Student .
-* Admin Can added information of  student and teacher information,can allocated course to student.
-* Teacher can take sutdent attendance live,can view studennt attendance.
-* Student can view their attendance with selecting spicific course.
+* Three Users: 1.Admin 2.Mess Manager,3.Mess Member .
+* Admin Can create a mess ,add member,can select a manager.
+* Manager can add daily meal,add daily cost,deposit to mess.
+* Member can show only personal info like meal,meal rate,deposit,balance.
 
 ## Screen Shot
 
-[splash]: https://github.com/sabuj87/raw/blob/master/Attendence%20System(Scren%20sot)/splash.png
-[intro]: https://github.com/sabuj87/raw/blob/master/Attendence%20System(Scren%20sot)/intro.png
-[Account Type]: https://github.com/sabuj87/raw/blob/master/Attendence%20System(Scren%20sot)/Account%20Type.png
-[admin panel]: https://github.com/sabuj87/raw/blob/master/Attendence%20System(Scren%20sot)/admin%20panel.png
-[SelectBatchDept]: https://github.com/sabuj87/raw/blob/master/Attendence%20System(Scren%20sot)/SelectBatchDept.png
-[studentList]: https://github.com/sabuj87/raw/blob/master/Attendence%20System(Scren%20sot)/studentList.png
-[add student]: https://github.com/sabuj87/raw/blob/master/Attendence%20System(Scren%20sot)/add%20student.png
-[addCourse]: https://github.com/sabuj87/raw/blob/master/Attendence%20System(Scren%20sot)/addCourse.png
-[CourseList]: https://github.com/sabuj87/raw/blob/master/Attendence%20System(Scren%20sot)/CourseList.png
-[addTeacher]: https://github.com/sabuj87/raw/blob/master/Attendence%20System(Scren%20sot)/addTeacher.png
+[add_cost]: https://github.com/sabuj87/raw/blob/master/mess/add_cost.png
+[add_meal]: https://github.com/sabuj87/raw/blob/master/mess/add_meal.png
+[add_member]: https://github.com/sabuj87/raw/blob/master/mess/add_member.png
+[admin_dash]: https://github.com/sabuj87/raw/blob/master/mess/admin_dash.png
+[all_member]: https://github.com/sabuj87/raw/blob/master/mess/all_member.png
+[login]: https://github.com/sabuj87/raw/blob/master/mess/login.png
+[manger_dash]:https://github.com/sabuj87/raw/blob/master/mess/manger_dash.png
+[member_dash]: https://github.com/sabuj87/raw/blob/master/mess/member_dash.png
+[mess_info]: https://github.com/sabuj87/raw/blob/master/mess/mess_info.png
+[select_manger]: https://github.com/sabuj87/raw/blob/master/mess/select_manger.png
 [techerPanlen]: https://github.com/sabuj87/raw/blob/master/Attendence%20System(Scren%20sot)/techerPanlen.png
 [TakeAttendence]: https://github.com/sabuj87/raw/blob/master/Attendence%20System(Scren%20sot)/TakeAttendence.png
 [TeacherViewAttendance]: https://github.com/sabuj87/raw/blob/master/Attendence%20System(Scren%20sot)/TeacherViewAttendance.png
 [studentViewAttendance]: https://github.com/sabuj87/raw/blob/master/Attendence%20System(Scren%20sot)/studentViewAttendance.png
 
-|    Splash screen      |    Intro slide |  Account Type  | admin panel  |
+|    Login      |    Admin Dashboard |  Add Member  | Mess Info |
 | ------------- |:-------------: |:------:|:---------------------:|
-|![alt text][splash]  | ![alt text][intro] | ![alt text][Account Type]  | ![alt text][admin panel]|
+|![alt text][login]  | ![alt text][admin_dash] | ![alt text][add_member]  | ![alt text][mess_info]|
 
-|  Select Batch & Dept |   Student List | Add student  | Add Course |
+|  Select Manager |   Add Meal | Add Cost  | Manager Dashboard|
 | ------------- |:-------------: |:------:|:---------------------:|
-|![alt text][SelectBatchDept]  | ![alt text][studentList] | ![alt text][add student]  | ![alt text][addCourse]|
+|![alt text][select_manger]  | ![alt text][add_meal] | ![alt text][add_cost]  | ![alt text][manger_dash]|
 
-|  Course List |   Student List | Add Teacher  | Techer Panel |
+|  All Member |   Member Dashboard | Add Teacher  | Techer Panel |
 | ------------- |:-------------: |:------:|:---------------------:|
-|![alt text][CourseList]  | ![alt text][studentList] | ![alt text][addTeacher]  | ![alt text][techerPanlen]|
+|![alt text][all_member]  | ![alt text][member_dash] | ![alt text][addTeacher]  | ![alt text][techerPanlen]|
 
 |  Take  Attendence |   Teacher View Attendance | Student View Attendance |
 | ------------- |:-------------: |:------:|
