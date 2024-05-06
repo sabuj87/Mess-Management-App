@@ -39,13 +39,10 @@ Manege a mess with app.Manage mess cost,mess meal,mess border,mess manager
 | ------------- |:-------------: |:------:|:---------------------:|
 |![alt text][select_manger]  | ![alt text][add_meal] | ![alt text][add_cost]  | ![alt text][manger_dash]|
 
-|  All Member |   Member Dashboard | Add Teacher  | Techer Panel |
-| ------------- |:-------------: |:------:|:---------------------:|
-|![alt text][all_member]  | ![alt text][member_dash] | ![alt text][addTeacher]  | ![alt text][techerPanlen]|
+|  All Member |   Member Dashboard 
+| ------------- |:-------------: |
+|![alt text][all_member]  | 
 
-|  Take  Attendence |   Teacher View Attendance | Student View Attendance |
-| ------------- |:-------------: |:------:|
-|![alt text][TakeAttendence]  | ![alt text][TeacherViewAttendance] | ![alt text][studentViewAttendance] |
 
 [Download APK](https://www.mediafire.com/file/zb3uqkx4b8f251h/Attendance_System.apk/file)
 
